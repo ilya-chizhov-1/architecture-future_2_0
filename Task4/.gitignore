@@ -1,0 +1,19 @@
+# Секреты - никогда не коммитим
+sa-key.json
+*.json.key
+authorized_key*.json
+
+# Состояние и кэши Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Локальные override-файлы
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json

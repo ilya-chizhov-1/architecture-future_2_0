@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram id="tech-radar" name="Технический радар">
+    <mxGraphModel dx="2800" dy="2000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2800" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Технический радар «Будущее 2.0» (ThoughtWorks-стиль)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="2680" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Rings (biggest first; smaller layers on top) -->
+        <mxCell id="ring_hold" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="1500" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_assess" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="1200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_trial" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="900" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="ring_adopt" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="670" width="560" height="560" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant dividers -->
+        <mxCell id="div_h" style="endArrow=none;html=1;strokeColor=#666666;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="1650" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div_v" style="endArrow=none;html=1;strokeColor=#666666;strokeWidth=1.5;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="200" as="sourcePoint" />
+            <mxPoint x="900" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Ring labels (on vertical axis with white background) -->
+        <mxCell id="lbl_adopt" value="Adopt" style="text;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#388E3C;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="790" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_trial" value="Trial" style="text;html=1;fillColor=#FFFFFF;strokeColor=#F9A825;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#F9A825;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="570" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_assess" value="Assess" style="text;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#F57C00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="410" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_hold" value="Hold" style="text;html=1;fillColor=#FFFFFF;strokeColor=#C62828;strokeWidth=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#C62828;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="250" width="100" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant labels (corners of canvas) -->
+        <mxCell id="lbl_q1" value="Платформа данных и хранение" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="150" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_q2" value="Интеграция и инфраструктура" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_q3" value="ИИ и аналитика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1710" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_q4" value="Практики и методологии" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1710" width="280" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ======= DOTS ======= -->
+        <!-- Q1 Platform (blue) -->
+        <mxCell id="dot_1" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1004" y="884" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_2" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1064" y="814" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_3" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1134" y="764" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_4" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="674" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_5" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="854" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_6" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="554" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Q2 Integration (green) -->
+        <mxCell id="dot_7" value="7" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="754" y="874" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_8" value="8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="774" y="804" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_9" value="9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="704" y="924" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_10" value="10" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="614" y="734" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_11" value="11" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="434" y="694" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_12" value="12" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="284" y="624" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Q3 AI / Analytics (purple) -->
+        <mxCell id="dot_13" value="13" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="774" y="1024" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_14" value="14" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="804" y="1074" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_15" value="15" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1124" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_16" value="16" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="704" y="1184" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_17" value="17" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1204" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_18" value="18" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1244" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Q4 Practices (orange) -->
+        <mxCell id="dot_19" value="19" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1014" y="1064" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_20" value="20" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="954" y="1114" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_21" value="21" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="1154" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_22" value="22" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="1214" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_23" value="23" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="1204" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dot_24" value="24" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1504" y="1264" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- ======= LEGEND PANEL (right) ======= -->
+        <mxCell id="q1_h" value="Платформа данных и хранение" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="100" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_b" value="&lt;b&gt;1.&lt;/b&gt; Object Storage &lt;i&gt;- основа для отчётности и любого нового бизнеса&lt;/i&gt;&lt;br/&gt;&lt;b&gt;2.&lt;/b&gt; Lakehouse (Iceberg / Delta) &lt;i&gt;- единое хранилище для витрины самообслуживания&lt;/i&gt;&lt;br/&gt;&lt;b&gt;3.&lt;/b&gt; CDC (Debezium) &lt;i&gt;- независимые релизы финтеха, подключение партнёров&lt;/i&gt;&lt;br/&gt;&lt;b&gt;4.&lt;/b&gt; Streaming (Kafka) &lt;i&gt;- быстрая подача данных от доменов к платформе&lt;/i&gt;&lt;br/&gt;&lt;b&gt;5.&lt;/b&gt; Semantic Layer &lt;i&gt;- быстрая отчётность, единые метрики для бизнеса&lt;/i&gt;&lt;br/&gt;&lt;b&gt;6.&lt;/b&gt; SQL Server 2008 DWH &lt;i&gt;- блокирует все цели, снят с поддержки вендором&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1976D2;strokeWidth=1;fontSize=12;align=left;verticalAlign=top;spacingTop=6;spacingLeft=12;spacingRight=12;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="136" width="1000" height="230" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q2_h" value="Интеграция и инфраструктура" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="386" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_b" value="&lt;b&gt;7.&lt;/b&gt; API Gateway &lt;i&gt;- независимое развитие финтеха, подключение партнёров&lt;/i&gt;&lt;br/&gt;&lt;b&gt;8.&lt;/b&gt; Managed Kubernetes &lt;i&gt;- качество и отказоустойчивость сервисов&lt;/i&gt;&lt;br/&gt;&lt;b&gt;9.&lt;/b&gt; SSO (OIDC) &lt;i&gt;- комплаенс, безопасный широкий доступ к витрине&lt;/i&gt;&lt;br/&gt;&lt;b&gt;10.&lt;/b&gt; Terraform (инфраструктура как код) &lt;i&gt;- масштабирование на новые бизнесы&lt;/i&gt;&lt;br/&gt;&lt;b&gt;11.&lt;/b&gt; Service Mesh &lt;i&gt;- наблюдаемость и безопасность трафика между доменами&lt;/i&gt;&lt;br/&gt;&lt;b&gt;12.&lt;/b&gt; ESB как шина данных &lt;i&gt;- уходит из роли массового перелива, остаётся только для процессов&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#388E3C;strokeWidth=1;fontSize=12;align=left;verticalAlign=top;spacingTop=6;spacingLeft=12;spacingRight=12;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="422" width="1000" height="230" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q3_h" value="ИИ и аналитика" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="672" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_b" value="&lt;b&gt;13.&lt;/b&gt; Портал самообслуживания и BI &lt;i&gt;- быстрая отчётность без обращений в ИТ&lt;/i&gt;&lt;br/&gt;&lt;b&gt;14.&lt;/b&gt; Python для ML &lt;i&gt;- независимое развитие ИИ-сервисов&lt;/i&gt;&lt;br/&gt;&lt;b&gt;15.&lt;/b&gt; Feature Store &lt;i&gt;- ускоряет ИИ-эксперименты и риск-скоринг в финтехе&lt;/i&gt;&lt;br/&gt;&lt;b&gt;16.&lt;/b&gt; Data Catalog и lineage &lt;i&gt;- доверие к цифрам, аудит для регулятора&lt;/i&gt;&lt;br/&gt;&lt;b&gt;17.&lt;/b&gt; ML Observability &lt;i&gt;- комплаенс и качество работы моделей в клиниках&lt;/i&gt;&lt;br/&gt;&lt;b&gt;18.&lt;/b&gt; Power BI поверх DWH &lt;i&gt;- легаси с кастомизациями, постепенно выводим&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;strokeWidth=1;fontSize=12;align=left;verticalAlign=top;spacingTop=6;spacingLeft=12;spacingRight=12;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="708" width="1000" height="230" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q4_h" value="Практики и методологии" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F57F17;strokeColor=#E65100;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="958" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_b" value="&lt;b&gt;19.&lt;/b&gt; DDD и доменная декомпозиция &lt;i&gt;- независимость всех направлений&lt;/i&gt;&lt;br/&gt;&lt;b&gt;20.&lt;/b&gt; Data Contracts между доменами &lt;i&gt;- подключение партнёров без правки ядра&lt;/i&gt;&lt;br/&gt;&lt;b&gt;21.&lt;/b&gt; Data Mesh как организационная модель &lt;i&gt;- масштабирование на новые бизнесы&lt;/i&gt;&lt;br/&gt;&lt;b&gt;22.&lt;/b&gt; Team Topologies (stream-aligned teams) &lt;i&gt;- TTM и независимость команд&lt;/i&gt;&lt;br/&gt;&lt;b&gt;23.&lt;/b&gt; Platform Engineering &lt;i&gt;- общая платформа данных как внутренний продукт&lt;/i&gt;&lt;br/&gt;&lt;b&gt;24.&lt;/b&gt; Моно-DWH команда как единственный поставщик &lt;i&gt;- блокер TTM, распускается постепенно&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57F17;strokeWidth=1;fontSize=12;align=left;verticalAlign=top;spacingTop=6;spacingLeft=12;spacingRight=12;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="994" width="1000" height="230" as="geometry" />
+        </mxCell>
+
+        <!-- Footer note -->
+        <mxCell id="footer" value="Статус технологии (Adopt / Trial / Assess / Hold) виден по её положению в соответствующем кольце радара. Цвет точки показывает квадрант." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1240" width="1000" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
