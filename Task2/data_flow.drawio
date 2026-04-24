@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram id="dfd-l1" name="DFD уровень 1 (Gane-Sarson)">
+    <mxGraphModel dx="2600" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========================= TITLE ========================= -->
+        <mxCell id="title" value="«Будущее 2.0» - потоки данных между доменами (DFD, уровень 1, нотация Gane-Sarson)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="15" width="2480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= EXTERNAL ENTITIES ========================= -->
+        <mxCell id="E1" value="&lt;b&gt;Оператор / врач&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;работает с пациентом в клинике" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#263238;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" value="&lt;b&gt;Клиент / пациент&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;пользуется приложениями клиники и банка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#263238;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" value="&lt;b&gt;Бизнес-пользователь&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;аналитик и руководитель, строит отчёты" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#263238;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="80" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" value="&lt;b&gt;Регулятор&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;аудит работы с мед. и фин. данными" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#263238;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="80" width="340" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= PROCESSES (DOMAINS) ========================= -->
+        <mxCell id="P1" value="&lt;b&gt;1.0 Клиники&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;приём пациентов, мед. карты, назначения, снимки" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="P3" value="&lt;b&gt;3.0 ИИ&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;модели диагностики и рекомендаций, подсказки врачу" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" value="&lt;b&gt;2.0 Финтех&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;платежи, счета, кредиты, банковские продукты" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="310" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="P4" value="&lt;b&gt;4.0 Головной офис&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;HR, инвентарь, корпоративные финансы, консолидация" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="310" width="480" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- Platform (central big process) -->
+        <mxCell id="P6" value="&lt;b&gt;6.0 Платформа данных&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;приём данных из доменов, подготовка, витрина самообслуживания, каталог и управление доступом" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=3;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="840" width="1800" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- Future partner domain -->
+        <mxCell id="P5" value="&lt;b&gt;5.0 Партнёры&lt;/b&gt;&lt;br/&gt;&lt;i&gt;(перспективно)&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;фарма, электроника и другие новые направления" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;dashed=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="840" width="340" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= DATA STORES (Gane-Sarson) ========================= -->
+        <!-- D2 between 1.0 and 3.0, y=630 -->
+        <mxCell id="D2_id" value="D2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3E5FC;strokeColor=#01579B;strokeWidth=2;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D2_name" value="&lt;b&gt;Изолированная медицинская песочница&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;медицинские данные под контрактом, только для обучения моделей. В общую витрину не попадают.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#01579B;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="480" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- D1 below platform -->
+        <mxCell id="D1_id" value="D1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3E5FC;strokeColor=#01579B;strokeWidth=2;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1170" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D1_name" value="&lt;b&gt;Озеро данных&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;аналитические копии data-продуктов всех доменов; основа витрины самообслуживания&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#01579B;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1170" width="960" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= LEGEND ========================= -->
+        <mxCell id="lg_box" value="Условные обозначения" style="shape=swimlane;startSize=34;html=1;fillColor=#FAFAFA;strokeColor=#999999;fontSize=13;fontStyle=1;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1150" width="680" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_ext" value="&lt;b&gt;Внешняя сущность&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#263238;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1200" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_proc" value="&lt;b&gt;Процесс / домен&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F57F17;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1200" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_future" value="&lt;b&gt;Будущий домен&lt;/b&gt;" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=2;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="1200" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_d_id" value="D#" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3E5FC;strokeColor=#01579B;strokeWidth=2;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_d_name" value="&lt;b&gt;Хранилище данных&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#01579B;strokeWidth=2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1270" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_flow" value="→ поток данных с подписью" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1270" width="320" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= EDGES (data flows) ========================= -->
+
+        <!-- External to processes -->
+        <mxCell id="f_e1_p1" value="действия оператора: приём, назначения, результаты исследований" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="E1" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_e3_p1" value="запись на приём, личные данные" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="E3" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_e3_p2" value="платежи, оформление кредитов" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="E3" target="P2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Business user ↔ Platform -->
+        <mxCell id="f_e2_p6" value="запрос отчёта / конструктор витрины" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="E2" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p6_e2" value="готовый отчёт самообслуживания" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P6" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Regulator ↔ Platform -->
+        <mxCell id="f_e4_p6" value="запросы аудита, проверка lineage" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="E4" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p6_e4" value="регуляторная отчётность" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P6" target="E4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Domain data products -> Platform -->
+        <mxCell id="f_p1_p6" value="data-продукт клиник: операционные метрики без мед. данных" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1976D2;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P1" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p2_p6" value="data-продукт финтеха: транзакции и продукты" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1976D2;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P2" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p3_p6" value="data-продукт ИИ: метрики моделей, исходы" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1976D2;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P3" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p4_p6" value="data-продукт головного офиса: показатели группы" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#1976D2;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P4" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_p5_p6" value="data-продукт партнёра: новый бизнес" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#558B2F;strokeWidth=2;dashed=1;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P5" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- AI inference back to Clinics -->
+        <mxCell id="f_p3_p1" value="подсказки и рекомендации моделей" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7B1FA2;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P3" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Clinics -> D2 sandbox (medical data under contract) -->
+        <mxCell id="f_p1_d2" value="мед. данные по контракту, с аудитом" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#C62828;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P1" target="D2_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- D2 -> AI (training data) -->
+        <mxCell id="f_d2_p3" value="обучающие выборки" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#C62828;strokeWidth=2;fontSize=12;fontStyle=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="D2_name" target="P3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Platform ↔ D1 lake -->
+        <mxCell id="f_p6_d1" value="запись аналитики" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="P6" target="D1_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_d1_p6" value="чтение для витрины и отчётов" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#333333;strokeWidth=2;fontSize=12;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="D1_name" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ========================= SCENARIO CALLOUTS ========================= -->
+        <mxCell id="sc_fintech" value="&lt;b&gt;Сценарий:&lt;/b&gt; интеграция нового финтех-сервиса - 2.0 публикует обновлённый data-продукт, платформа подхватывает, в витрине появляется новая метрика. DWH не задет." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="600" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sc_ai" value="&lt;b&gt;Сценарий:&lt;/b&gt; ИИ работает с мед. данными - клиники отдают PHI в D2 по контракту, ИИ обучает модели и возвращает подсказки. Данные не уходят в общую витрину." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sc_partner" value="&lt;b&gt;Сценарий:&lt;/b&gt; подключение партнёра (фарма, электроника) - новый домен 5.0 с собственным data-продуктом. Существующие домены не задеты." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#558B2F;strokeWidth=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="600" width="380" height="200" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

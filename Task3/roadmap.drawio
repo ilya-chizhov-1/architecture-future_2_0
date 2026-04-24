@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" agent="Claude" version="24.0.0">
+  <diagram id="roadmap" name="Роадмап трансформации">
+    <mxGraphModel dx="2800" dy="1500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2800" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Роадмап трансформации «Будущее 2.0» на год" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="2680" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Quarter headers -->
+        <mxCell id="h_title" value="Направления" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37474F;strokeColor=#37474F;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q1" value="Кв. 1 (месяцы 1-3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#37474F;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q2" value="Кв. 2 (месяцы 4-6)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#37474F;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="950" y="70" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q3" value="Кв. 3 (месяцы 7-9)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#37474F;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="70" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q4" value="Кв. 4 (месяцы 10-12)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#37474F;fontColor=#FFFFFF;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="70" width="590" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 1: Платформа данных ============== -->
+        <mxCell id="r1_t" value="&lt;b&gt;Платформа данных&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команда: Data Platform&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r1_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5FBFE;strokeColor=#B3D9F2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_q1" value="&lt;b&gt;Фундамент платформы&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Object Storage, Lakehouse, каталог, пилот CDC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="150" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_q2" value="&lt;b&gt;Платформа в продакшене&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Kafka, streaming-ingestion, первые доменные потоки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="150" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_q3" value="&lt;b&gt;Аналитический слой&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Semantic Layer, оркестратор, observability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="150" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_q4" value="&lt;b&gt;SLA и масштабирование&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Подключение всех доменов, показатели надёжности" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="150" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 2: Витрина самообслуживания ============== -->
+        <mxCell id="r2_t" value="&lt;b&gt;Витрина самообслуживания&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команда: Analytics Platform + BI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFAF2;strokeColor=#FFD9B3;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_q1" value="&lt;b&gt;Выбор инструмента&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;RFP, архитектура семантического слоя" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E65100;strokeColor=#BF360C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="340" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_q2" value="&lt;b&gt;MVP семантики и первый пилот-отчёт&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Семантика поверх Lakehouse, отчёт по одному домену" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E65100;strokeColor=#BF360C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="340" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_q3q4" value="&lt;b&gt;Портал самообслуживания в проде и миграция отчётов с Power BI&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Конструктор отчётов для бизнеса, каталог метрик, перевод существующих дашбордов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E65100;strokeColor=#BF360C;fontColor=#FFFFFF;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="340" width="1150" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 3: Доменная декомпозиция ============== -->
+        <mxCell id="r3_t" value="&lt;b&gt;Доменная декомпозиция&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команды: доменные + архитекторы&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAF3FB;strokeColor=#E1BEE7;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_q1" value="&lt;b&gt;DDD-мэппинг и контракты&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Каталог data-продуктов, первый контракт (Клиники)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="530" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_q2" value="&lt;b&gt;Data-продукты Клиник и Финтеха&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Первые два домена публикуются в платформу" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="530" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_q3" value="&lt;b&gt;Data-продукты ИИ и Головного офиса&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Team Topologies, stream-aligned teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="530" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_q4" value="&lt;b&gt;Полный Data Mesh&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Governance контрактов, готовность принять партнёров" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#4A148C;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="530" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 4: ИИ и мед. данные ============== -->
+        <mxCell id="r4_t" value="&lt;b&gt;ИИ и работа с мед. данными&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команды: ИИ + Клиники + Комплаенс&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5FBF6;strokeColor=#C8E6C9;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_q1" value="&lt;b&gt;Дизайн мед. песочницы&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Архитектура D2, контрактная модель для PHI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="720" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_q2" value="&lt;b&gt;Песочница в проде&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Первые обучающие выборки, аудируемый доступ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="720" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_q3" value="&lt;b&gt;Feature Store и Model Registry&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Пилот inference в интерфейсе оператора" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="720" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_q4" value="&lt;b&gt;Production inference и ML Observability&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Модели используются в клиниках, отслеживается качество" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#1B5E20;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="720" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 5: Комплаенс и безопасность ============== -->
+        <mxCell id="r5_t" value="&lt;b&gt;Комплаенс и безопасность&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команды: Security + Data Platform&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF5F5;strokeColor=#FFCDD2;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_q1" value="&lt;b&gt;Аудит текущего состояния&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Каталог ролей, политики доступа, gap-анализ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=#8E0000;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="910" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_q2" value="&lt;b&gt;SSO и базовый row-level security&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Единый вход, атрибутивный доступ к витрине" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=#8E0000;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="910" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_q3" value="&lt;b&gt;Изоляция PHI и HA/DR&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Мед. данные только в D2, резервирование критичных сервисов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=#8E0000;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="910" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_q4" value="&lt;b&gt;Геораспределение и регуляторная отчётность&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Несколько зон, отчёты для регулятора из витрины" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C62828;strokeColor=#8E0000;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="910" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== ROW 6: Вывод легаси ============== -->
+        <mxCell id="r6_t" value="&lt;b&gt;Вывод легаси&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;#555&quot;&gt;команды: Data Platform + Клиники&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F9FA;strokeColor=#CFD8DC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1080" width="2360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_q1" value="&lt;b&gt;Freeze изменений в DWH&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;План миграции, заморозка новых фич в старом DWH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#263238;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1100" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_q2" value="&lt;b&gt;Миграция аналитики в Lakehouse&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Приоритетные домены переезжают с DWH на платформу" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#263238;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1100" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_q3" value="&lt;b&gt;PowerBuilder в веб-клиент&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Оператор переходит на новый интерфейс" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#263238;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="1100" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_q4" value="&lt;b&gt;DWH в read-only архив&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;SQL Server 2008 выведен из эксплуатации для новых нагрузок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#263238;fontColor=#FFFFFF;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="1100" width="560" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ============== MILESTONES ============== -->
+        <mxCell id="m1" value="&lt;b&gt;Контрольная точка:&lt;/b&gt; платформа данных в проде, первые data-продукты Клиник и Финтеха" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1290" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="&lt;b&gt;Контрольная точка:&lt;/b&gt; портал самообслуживания запущен в прод" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="1290" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="&lt;b&gt;Итог года:&lt;/b&gt; целевая архитектура, легаси выведено из эксплуатации, домены работают независимо" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#388E3C;strokeWidth=2;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1290" width="380" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ============== LEGEND ============== -->
+        <mxCell id="lg_title" value="&lt;b&gt;Легенда направлений&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1290" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_plat" value="Платформа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_vit" value="Витрина" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_dom" value="Домены" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_ai" value="ИИ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_sec" value="Комплаенс" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_leg" value="Легаси" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1325" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lg_row_milestone" value="Контрольная точка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;strokeWidth=2;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1325" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Footer note -->
+        <mxCell id="footer" value="Подробные ожидаемые результаты, ответственные команды, ресурсы и бизнес-обоснование по каждому этапу - см. rationale.md." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#555555;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1370" width="1600" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
